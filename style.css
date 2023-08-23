@@ -1,0 +1,33 @@
+body{
+
+    background-color: darkcyan;
+}
+.firstDiv{
+
+
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin-left: 30%;
+    
+}
+p{
+
+   padding-top: 10%;
+    display: inline;
+    padding-left: 50px;
+    margin-top: 10%;
+}
+
+input{
+
+    width: 50px;
+    padding-left: 0px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+hr{
+
+ margin-right: 30%;
+ 
+}

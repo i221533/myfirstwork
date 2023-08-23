@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <h1>Here is Age Claculator</h1>
+<div class="firstDiv"><p>Day</p>  <p>Month</p> <p>Year</p>
+
+    <form action="" id="doForm">
+
+        <input type="number" class="dateofbith" id="day" min="1" max="31" required> 
+        <p id="dayp"></p>
+        <input type="number" class="dateofbith" id="month" min="1" max="12" required>
+        <p  id="monthp"></p>
+        <input type="number" class="dateofbith "id="year" min="1800" max="2023" required>
+        <p id="yearp"></p>
+        <hr>
+        <button type="submit" id="submit">Calculate Age</button>
+    </form>
+
+<div id="result" class="hidden">
+    <h1>Age:</h1>
+    <h2 id="ageResult"></h2>
+  </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
